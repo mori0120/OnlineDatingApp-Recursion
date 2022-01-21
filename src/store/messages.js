@@ -29,7 +29,6 @@ export const messagesStore = {
   mutations: {
     setMessages (state, payload) {
       const message = state.messages.find(obj => Object.keys(obj)[0] === payload.id)
-      console.log(message, payload.id)
       if (!message) {
         const newMessage = { [payload.id]: [payload.message] }
         state.messages.push(newMessage)
