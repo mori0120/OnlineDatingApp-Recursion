@@ -1,5 +1,5 @@
 <template>
-  <h1>User Details</h1>
+  <h1>User Detail</h1>
   <div class="container">
     <div class="information-container">
       <div><img :src="user.picture.large"></div>
